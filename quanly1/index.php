@@ -48,7 +48,11 @@
 			</div>
             <img src="image/logo.png" width= "550px" height="400px"> </br></br>
             <h3> Phòng khám  </h3> </br>
-                    <a href="benhnhan.php"><i class="fas fa-user-edit"></i></a>
+                       <a  id="current" href="#"><i class="fas fa-home"></i>Trang chủ</a>
+                      <a href="benhnhan.php" ><i class="fas fa-user-edit"></i>Bệnh Nhân</a>
+                      <a href="dichvu.php" ><i class="fas fa-stethoscope"></i>Dịch vụ</a>
+                      <a href="donthuoc.php" ><i class="fas fa-capsules"></i>Đơn thuốc</a>
+
         </div>
             </div>
         </div>
