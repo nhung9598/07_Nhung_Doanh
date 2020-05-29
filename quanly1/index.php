@@ -4,9 +4,6 @@
 
     // echo $_SESSION['username'];
   $link = new mysqli('localhost','root','','quanly') or die('failed');
-  mysqli_query($link, 'SET NAMES UTF8');
-  $query = 'SELECT * FROM tintuc';
-  $result = mysqli_query($link, $query);
 ?>
 <!DOCTYPE html>
 <html>
