@@ -4,12 +4,6 @@
 
     // echo $_SESSION['username'];
   $link = new mysqli('localhost','root','','quanly') or die('failed');
-<<<<<<< HEAD
-=======
-  mysqli_query($link, 'SET NAMES UTF8');
-  $query = 'SELECT * FROM tintuc111';
-  $result = mysqli_query($link, $query);
->>>>>>> 4d8f139764bab7a6117bc8c2a9fe7e2ccbb09e6c
 ?>
 <!DOCTYPE html>
 <html>
