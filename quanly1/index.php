@@ -1,7 +1,7 @@
 <?php 
   session_start();
   if(isset($_SESSION['username'])){
-
+2 tuần chưa thấy gì mới
     // echo $_SESSION['username'];
   $link = new mysqli('localhost','root','','quanly') or die('failed');
 ?>
